@@ -1,0 +1,33 @@
+{
+  "name": "lab-07-api-server",
+  "version": "1.0.0",
+  "description": "## Project Name API-Server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammed-401-advanced-javascript/lab-07-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammed-401-advanced-javascript/lab-07-api-server/issues"
+  },
+  "homepage": "https://github.com/Mohammed-401-advanced-javascript/lab-07-api-server#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
